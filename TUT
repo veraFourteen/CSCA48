@@ -1,0 +1,18 @@
+deletion for tree
+- 0 children
+just delete
+- 1 children
+replace node with child
+- 2 children
+check its right child, and go all the way down to the left cornor, and make it the parent
+"in the node's right subtree, sleect the left most node, then replace."
+- beacuse this node is the smallest in all the right subtrees, but greater than all subtrees in the left.
+
+challange:
+construct a bst with:
+postorder: R,I,Z,A,O,R,S,K,C,H,E,M
+inorder:   R,A,I,Z,M,E,O,R,H,C,S,K
+root is M
+
+from inorder we know that things left from M are the left of the tree, and the right from M is the right of the tree
+this is hard.....
